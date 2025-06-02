@@ -10,7 +10,6 @@ function Navbar() {
     <Nav defaultActiveKey="/home" className="flex-column">
       <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link as={NavLink} to= "/projects">Projects</Nav.Link>
-      <Nav.Link as={NavLink} to= "/skills">Skills</Nav.Link>
       <Nav.Link as={NavLink} to= "/contact">Contact</Nav.Link>
     </Nav>
     </div>

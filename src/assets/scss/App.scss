@@ -124,6 +124,25 @@ a:link {
     color: #c8b0cb;
     text-decoration: none;
   }
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .contact-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-container li {
+    margin-bottom: 1rem; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-container li svg {
+    margin-right: 10px; 
+  }
 
 .nav-container {
   display: flex;
