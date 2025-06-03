@@ -5,8 +5,8 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
-    <App />
+    <BrowserRouter basename="/teddie-portfolio">
+      <App />
     </BrowserRouter>
   </StrictMode>
 )
